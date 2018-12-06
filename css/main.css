@@ -1,16 +1,49 @@
 html {
   box-sizing: border-box;
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
   color: #fff;
-  text-align: center;
+  align-items: center;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+.grains {
+  border: 2px solid #a63f38;
+  display: flex;
+  justify-content: space-between;
+}
+
 header {
   background-color: #d05c2e;
+}
+
+header img {
+  display: block;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+}
+
+.home {
+  border: 2px solid #a63f38;
+  margin: 0;
+}
+
+.cereals {
+  border: 2px solid #a63f38;
+  margin: 0;
+}
+
+.legumes {
+  border: 2px solid #a63f38;
+  margin: 0;
 }
 
 li {
