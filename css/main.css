@@ -2,7 +2,6 @@ html {
   box-sizing: border-box;
   font-family: Merriweather, serif;
   color: #fff;
-  align-items: center;
   line-height: 1.5;
 }
 
@@ -10,10 +9,16 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  text-align: center;
+}
+
 .grains {
   border: 2px solid #a63f38;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 header {
@@ -22,7 +27,7 @@ header {
 
 header img {
   display: block;
-  width: 100%;
+  width: 40px;
 }
 
 ul {
